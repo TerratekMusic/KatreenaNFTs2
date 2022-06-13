@@ -393,23 +393,26 @@
     <!-- upload file -->
     <section class="upload-section padding-top padding-bottom">
         <div class="container">
-            <div class="section-header"></div>
+            <div class="section-header">3D NFTree CREATOR. Complete the information:</div>
             <div class="section-wrapper">
                 <div class="row">
                     <div class="nft-search">
                         <div class="form-floating nft-search-input">
                             <input type="text" class="form-control" id="metadataName" placeholder="NFTree Name" />
-                            <label for="metadataName">NFTree Name</label>
+                            <label for="metadataName">Name</label>
                             <!-- <button type="button"> <i class="icofont-search-1"></i></button> -->
+                        </div>
+                        <div class="form-floating nft-search-input">
+                            <input id="description" type="text" class="form-control" placeholder="Description">
+                            <label for="metadataDescription">Description</label>
                         </div>
                         <div class="form-floating nft-search-input">
                             <input type="file" name="fileInput" id="fileInput" />
                         </div>
                         <br /><br />
                         <div class="load-btn mt-5">
-                            <button onclick="test()" class="default-btn move-bottom">
-                  <span>UPLOAD</span>
-                </button>
+                            <button onclick="generarNFT()" class="default-btn move-bottom">
+                            <span>UPLOAD AND MINT</span></button>
                         </div>
                     </div>
                 </div>
@@ -589,10 +592,12 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/functions.js"></script>
 
-    ///katreena Scripts
+    <!-- katreena Scripts -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/uploadNFT.js"></script>
     <script src="assets/js/displayNFTs.js"></script>
+    <script src="assets/js/GenerarNFT.js"></script>
+
 </body>
 
 </html>
