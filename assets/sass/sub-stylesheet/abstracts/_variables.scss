@@ -3,34 +3,37 @@ $bootstrap-sass-asset-helper: false !default;
 // Variables
 // --------------------------------------------------
 
-
 // Colors
 
+$primary-G1: #05cd3e;
+$primary-G2: #67f2b2;
+$primary-G3: #128897;
+
+$primary-p: #7f2bb7;
+
 $title-color: #fff;
-$desc-color:#fff;
-$theme-color:#5138ee;
+$desc-color: #fff;
+$theme-color: #05cd3e;
 // $theme-color-2:#ffd700;
-$theme-color-2:#51ff00;
-$theme-color-4:#f3a735;
+$theme-color-2: #51ff00;
+$theme-color-4: #f3a735;
 $primary-color: #3d8fff;
-$card-color-3:#182724;
-$secondary-color:#1a203c;
+$card-color-3: #182724;
+$secondary-color: #1a203c;
 $body-color: #040b29;
 $body-color-2: #000d21;
-$body-color-3:#0C1615;
+$body-color-3: #0c1615;
 // $royal-blue:#190955;
-$royal-blue:#030010;
-$royal-yellow:#00edc5;
-$shadow-color: rgba($royal-blue, $alpha:.2);
+$royal-blue: #030010;
+$royal-yellow: #00edc5;
+$shadow-color: rgba($royal-blue, $alpha: 0.2);
 $white-color: #fff;
 $ash-color: #f9fafb;
-$black-color:#000000;
-$border-color: rgba($white-color, $alpha:.1);
-
+$black-color: #000000;
+$border-color: rgba($white-color, $alpha: 0.1);
 
 //default box shadow
 $d-box-shadow: 0 0 10px $shadow-color;
-
 
 // social-media color
 $facebook: #3b5998;
@@ -43,9 +46,9 @@ $camera: #e4405f;
 $instagram: #e4405f;
 $tumblr: #34465d;
 $behance: #1769ff;
-$pinterest:#c8232c;
-$dribble:#ea4c89;
-$vimeo:#86c9ef;
+$pinterest: #c8232c;
+$dribble: #ea4c89;
+$vimeo: #86c9ef;
 $star: #e9ba17;
 $green: #0be881;
 $green-h: #0fbcf9;
@@ -59,19 +62,14 @@ $plaseholder: #a0a6bc;
 
 // font-family
 
+$barlow: "Barlow", sans-serif;
 
-$barlow:'Barlow',
-sans-serif;
-
-
-
-$roboto:'Roboto',
-sans-serif;
+$roboto: "Roboto", sans-serif;
 
 // font-size
 
 $fs-base: 16px !default;
-$fs-small:14px;
+$fs-small: 14px;
 
 $fs-h1: 60px;
 $fs-h2: 40px;
@@ -79,7 +77,6 @@ $fs-h3: 30px;
 $fs-h4: 24px;
 $fs-h5: 20px;
 $fs-h6: 18px;
-
 
 // heading line height
 
