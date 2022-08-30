@@ -654,6 +654,9 @@ ol {
 .theme-color {
   color: #05cd3e; }
 
+.black-bg {
+  background-color: #000000; }
+
 .theme-color-p {
   color: #7f2bb7; }
 
@@ -675,6 +678,9 @@ ol {
     .fs-36 {
       font-size: 2.25rem; } }
 
+.pad-lg {
+  padding-left: 150px; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px; } }
@@ -689,7 +695,8 @@ ol {
   transform-origin: right;
   transition: all 0.3s ease;
   background: linear-gradient(0.25turn, #05cd3e, #67f2b2, #128897);
-  font-weight: bold; }
+  font-weight: bold;
+  border-width: 0px; }
   @media (min-width: 768px) {
     .default-btn {
       padding: 0 2.25rem;
@@ -994,7 +1001,7 @@ ol {
   .nft-item.home-4 .nft-inner {
     background-color: #000000;
     border: 2px solid transparent;
-    border-image: linear-gradient(125deg, #ffe53b 0%, #ff2525 37%, #fd00ff 100%);
+    border-image: linear-gradient(125deg, #05cd3e 0%, #67f2b2 37%, #128897 100%);
     border-image-slice: 1; }
   .nft-item.home-4 .nft-content h4 a:hover,
   .nft-item.home-4 .nft-content h6 a:hover {
@@ -1044,6 +1051,11 @@ ol {
     background-color: rgba(255, 255, 255, 0.1); }
   .nft-item.home-3 .nft-thumb img {
     border-radius: 10px; }
+  .nft-item.home-3 .nft-thumb .mdv {
+    border: 2px solid #030010;
+    border-radius: 50%;
+    max-width: 44px;
+    object-fit: cover; }
   .nft-item.home-3:hover {
     transform: none; }
     .nft-item.home-3:hover .nft-inner {
@@ -1625,7 +1637,7 @@ aside {
   right: 0;
   width: auto;
   height: 70px;
-  background-color: transparent;
+  background-color: #030010;
   z-index: 101; }
   .header.style-2 .header__search input:focus {
     border-color: rgba(81, 255, 0, 0.4); }
@@ -1862,7 +1874,7 @@ aside {
 .menu-trigger,
 .menu-trigger span {
   display: inline-block;
-  transition: all .4s;
+  transition: all 0.4s;
   box-sizing: border-box; }
 
 .menu-trigger {
@@ -1899,7 +1911,7 @@ aside {
 #menu05.header__btn--active span:nth-of-type(2) {
   left: 50%;
   opacity: 0;
-  animation: active-menu05-bar02 .8s forwards; }
+  animation: active-menu05-bar02 0.8s forwards; }
 
 @keyframes active-menu05-bar02 {
   100% {
@@ -2299,7 +2311,7 @@ aside {
 /*============ Header section css end here ==============*/
 /*============ Page Header  css start here ==============*/
 .page-header-section.style-1 {
-  background-color: #030010;
+  background-image: url("../images/banner/bg2OP.png");
   border: none;
   padding-top: 125px;
   padding-bottom: 40px; }
@@ -2568,7 +2580,7 @@ Home page css start here
 
 ========================================================*/
 .banner-section {
-  background-color: #030010;
+  background-image: url("../images/banner/mainBG.jpg");
   background-size: cover;
   background-position: center; }
   .banner-section.style-2 .banner-wrapper {
